@@ -311,117 +311,117 @@ def calculate_points(point):
           print("\n")
           #Break the loop for next question and chocies
           break
-  #import question and choices
-  Fourteen.text(Question)    
-  Fourteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
-            #Shows invalid input if user input the wrong stuff
-            print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
-  #import question and choices
-  Fifteen.text(Question)    
-  Fifteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
-            #Shows invalid input if user input the wrong stuff
-            print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
-  #import question and choices
-  Sixteen.text(Question)    
-  Sixteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
-            #Shows invalid input if user input the wrong stuff
-            print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
     #import question and choices
-  Seventeen.text(Question)    
-  Seventeen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+    Fourteen.text(Question)    
+    Fourteen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
             #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
+        print("\n")
+        #Break the loop for next question and chocies
+        break
     #import question and choices
-  Eighteen.text(Question)    
-  Eighteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+    Fifteen.text(Question)    
+    Fifteen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
             #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
+        print("\n")
+        #Break the loop for next question and chocies
+        break
     #import question and choices
-  Nineteen.text(Question)    
-  Nineteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
+    Sixteen.text(Question)    
+    Sixteen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
+            print("Invalid Input")
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Seventeen.text(Question)    
+    Seventeen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
+            print("Invalid Input")
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Eighteen.text(Question)    
+    Eighteen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
+            print("Invalid Input")
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Nineteen.text(Question)    
+    Nineteen.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
               point += 1
               print(point)  
           elif times == "B":
