@@ -32,13 +32,18 @@ import feedback
 print("Hi, Thank you for being here\n\nThis is just a little test for your Mental Health \n\nIn this little test you will be doing some Multiple Choice Questions\n\nTo be honest is the key!")
 print("\nQuestion 1: \n")
 
+#Set original point to 0
 point = 0
+#Defined a function which calculates all points based on user's answer
 def calculate_points(point):
-  One.text(Question)    
-  One.choices(Question)
-  while True:  
+    #import question and choices 
+    One.text(Question)    
+    One.choices(Question)
+    #A loop for user to input their choice
+    while True:  
         times= input("Enter your choice here: ")
         if times == "A":
+            #Adds point based on their choice
             point += 1
             print(point)
 
@@ -50,27 +55,31 @@ def calculate_points(point):
             point += 3
             print(point)
         else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
         print("\n")
+        #Break the loop for next question and chocies 
         break
-  Two.text(Question)    
-  Two.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+    #import question and choices 
+    Two.text(Question)    
+    Two.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
+        print("\n")
+        #Break the loop for next question and chocies 
+        break
   Three.text(Question)    
   Three.choices(Question)
   while True: 
