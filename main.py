@@ -80,8 +80,8 @@ def calculate_points(point):
         print("\n")
         #Break the loop for next question and chocies 
         break
-  Three.text(Question)    
-  Three.choices(Question)
+    Three.text(Question)    
+    Three.choices(Question)
   while True: 
           times= input("Enter your choice here: ")
           if times == "A":
