@@ -80,114 +80,130 @@ def calculate_points(point):
         print("\n")
         #Break the loop for next question and chocies 
         break
+    #import question and choices
     Three.text(Question)    
     Three.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
-  Four.text(Question)    
-  Four.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+        print("\n")
+        #Break the loop for next question and chocies 
+        break
+    #import question and choices
+    Four.text(Question)    
+    Four.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
-  Five.text(Question)    
-  Five.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+        print("\n")
+        #Break the loop for next question and chocies 
+        break
+    #import question and choices
+    Five.text(Question)    
+    Five.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
-  Six.text(Question)    
-  Six.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Six.text(Question)    
+    Six.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
-  Seven.text(Question)    
-  Seven.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Seven.text(Question)    
+    Seven.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          break
-  Eight.text(Question)    
-  Eight.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Eight.text(Question)    
+    Eight.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
             print("Invalid Input")
-          print("\n")
-          break
+        print("\n")
+        break
   Nine.text(Question)    
   Nine.choices(Question)
   while True: 
