@@ -248,9 +248,52 @@ def calculate_points(point):
         print("\n")
         #Break the loop for next question and chocies
         break
-  Eleven.text(Question)    
-  Eleven.choices(Question)
-  while True: 
+    #import question and choices    
+    Eleven.text(Question)    
+    Eleven.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff
+            print("Invalid Input")
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Twelve.text(Question)    
+    Twelve.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
+
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
+            #Shows invalid input if user input the wrong stuff        
+            print("Invalid Input")
+        print("\n")
+        #Break the loop for next question and chocies
+        break
+    #import question and choices
+    Thirteen.text(Question)    
+    Thirteen.choices(Question)
+    while True: 
           times= input("Enter your choice here: ")
           if times == "A":
               point += 1
@@ -263,45 +306,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
-  Twelve.text(Question)    
-  Twelve.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
-            print("Invalid Input")
-          print("\n")
-          break
-  Thirteen.text(Question)    
-  Thirteen.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
-
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
-            print("Invalid Input")
-          print("\n")
-          break
+  #import question and choices
   Fourteen.text(Question)    
   Fourteen.choices(Question)
   while True: 
@@ -317,9 +327,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+  #import question and choices
   Fifteen.text(Question)    
   Fifteen.choices(Question)
   while True: 
@@ -335,9 +348,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+  #import question and choices
   Sixteen.text(Question)    
   Sixteen.choices(Question)
   while True: 
@@ -353,9 +369,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+    #import question and choices
   Seventeen.text(Question)    
   Seventeen.choices(Question)
   while True: 
@@ -371,9 +390,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+    #import question and choices
   Eighteen.text(Question)    
   Eighteen.choices(Question)
   while True: 
@@ -389,9 +411,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+    #import question and choices
   Nineteen.text(Question)    
   Nineteen.choices(Question)
   while True: 
@@ -407,9 +432,12 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
+    #import question and choices
   Twenty.text(Question)    
   Twenty.choices(Question)
   while True: 
@@ -425,8 +453,10 @@ def calculate_points(point):
               point += 3
               print(point)
           else:
+            #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
           print("\n")
+          #Break the loop for next question and chocies
           break
 
 calculate_points(point)
