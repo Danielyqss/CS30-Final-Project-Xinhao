@@ -422,42 +422,42 @@ def calculate_points(point):
     while True: 
         times= input("Enter your choice here: ")
         if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
             #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
+        print("\n")
+        #Break the loop for next question and chocies
+        break
     #import question and choices
-  Twenty.text(Question)    
-  Twenty.choices(Question)
-  while True: 
-          times= input("Enter your choice here: ")
-          if times == "A":
-              point += 1
-              print(point)  
-          elif times == "B":
-              point += 2
-              print(point)
+    Twenty.text(Question)    
+    Twenty.choices(Question)
+    while True: 
+        times= input("Enter your choice here: ")
+        if times == "A":
+            point += 1
+            print(point)  
+        elif times == "B":
+            point += 2
+            print(point)
 
-          elif times == "C":
-              point += 3
-              print(point)
-          else:
+        elif times == "C":
+            point += 3
+            print(point)
+        else:
             #Shows invalid input if user input the wrong stuff
             print("Invalid Input")
-          print("\n")
-          #Break the loop for next question and chocies
-          break
+        print("\n")
+        #Break the loop for next question and chocies
+        break
 
 calculate_points(point)
 print("Your points is shown on above this text and there are feedbacks that are importatnt to you based on points you get\n")
